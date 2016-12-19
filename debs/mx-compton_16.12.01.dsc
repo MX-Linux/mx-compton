@@ -10,8 +10,8 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-compton deb admin optional arch=any
 Checksums-Sha1:
- c43be30c8cf028ad35ae67be65f94a19e4d61498 23836 mx-compton_16.12.01.tar.xz
+ e69faa5e31ce5a75da0227c4b22980b3c90ef5b8 75080 mx-compton_16.12.01.tar.xz
 Checksums-Sha256:
- 7585d311cdfe6d2fe096f61767d213c6350050fd8bf7bdee4a98c2c711beaf02 23836 mx-compton_16.12.01.tar.xz
+ 809a743111a00509cda0d4182afdc478eddbe70a7cfb524d8a578370964007db 75080 mx-compton_16.12.01.tar.xz
 Files:
- 5e6fce4f7b5b8f5ee1c6b9b155d4ce98 23836 mx-compton_16.12.01.tar.xz
+ 49d5549587a151e3ab14b938db6d7fe8 75080 mx-compton_16.12.01.tar.xz
