@@ -1,0 +1,8 @@
+mx-compton 		 usr/bin
+mx-compton.desktop	 usr/share/applications
+translations/*.qm 	 usr/share/mx-compton/locale
+icons/*                 usr/share/mx-compton/icons
+license.html            usr/share/doc/mx-compton
+*.sh			usr/local/bin
+*.desktop		usr/share/mx-compton
+*.conf			usr/share/mx-compton

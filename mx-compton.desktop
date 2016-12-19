@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=MX Compton Manager
+GenericName=MX Compton Manager
+Comment=a tool for configuring and launching the compton compositor
+Exec=mx-compton
+Icon=preferences-system-windows
+Categories=Settings;DesktopSettings;Qt;LXQt;System;MX-Setup;
+Terminal=false

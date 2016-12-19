@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 19 Dec 2016 13:42:34 -0500
+Source: mx-compton
+Binary: mx-compton
+Architecture: source amd64
+Version: 16.12.01
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphion oracle <dolphinoracle@gmail.com>
+Description:
+ mx-compton - MX Compton
+Changes:
+ mx-compton (16.12.01) mx; urgency=medium
+ .
+   * dev release
+Checksums-Sha1:
+ 5d0412a75335614af5a187ec2a26f44f5e247c4c 620 mx-compton_16.12.01.dsc
+ c43be30c8cf028ad35ae67be65f94a19e4d61498 23836 mx-compton_16.12.01.tar.xz
+ 27f24c24ab1860500e0e72b0856057b57ddd436d 25614 mx-compton_16.12.01_amd64.deb
+Checksums-Sha256:
+ 9cb5d95580f09432d77085b16fc22255686d96091d9469029d2d8832289d0ed0 620 mx-compton_16.12.01.dsc
+ 7585d311cdfe6d2fe096f61767d213c6350050fd8bf7bdee4a98c2c711beaf02 23836 mx-compton_16.12.01.tar.xz
+ ddb803aa68f4ced0c0d971b1401e6cdf2d2b36582cb1c962703c545c871e5917 25614 mx-compton_16.12.01_amd64.deb
+Files:
+ 812e74ec344ea53d87950bfd22c255a1 620 admin optional mx-compton_16.12.01.dsc
+ 5e6fce4f7b5b8f5ee1c6b9b155d4ce98 23836 admin optional mx-compton_16.12.01.tar.xz
+ 00fb581f8eb57c0d8555c9a8d9f62873 25614 admin optional mx-compton_16.12.01_amd64.deb
