@@ -1,0 +1,124 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package mx-compton
+dpkg-buildpackage: source version 16.12.01
+dpkg-buildpackage: source distribution mx
+dpkg-buildpackage: source changed by dolphion oracle <dolphinoracle@gmail.com>
+ dpkg-source --before-build app
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean --parallel 
+   dh_testdir
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/home/dolphin/app'
+dh_auto_clean
+rm -f src/translations/*.qm
+make[1]: Leaving directory '/home/dolphin/app'
+   dh_clean
+ dpkg-source -b app
+dpkg-source: info: using source format `3.0 (native)'
+dpkg-source: info: building mx-compton in mx-compton_16.12.01.tar.xz
+dpkg-source: info: building mx-compton in mx-compton_16.12.01.dsc
+ debian/rules build
+dh build --parallel 
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+	qmake -makefile -nocache QMAKE_STRIP=: PREFIX=/usr
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/home/dolphin/app'
+lrelease mx-compton.pro
+Updating '/home/dolphin/app/translations/mx-compton_ca.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_de.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_el.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_es.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_fr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_it.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_ja.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_kk.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_nl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_pl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_pt.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_ro.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_ru.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_sv.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/home/dolphin/app/translations/mx-compton_tr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+dh_auto_build -- QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE"
+	make -j1 QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS=DEFINES\+=NO_DEBUG_ON_CONSOLE
+make[2]: Entering directory '/home/dolphin/app'
+/usr/lib/x86_64-linux-gnu/qt5/bin/uic mxcompton.ui -o ui_mxcompton.h
+g++ -c -m64 -pipe -O2 -Wall -W -D_REENTRANT -fPIE -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -o main.o main.cpp
+g++ -c -m64 -pipe -O2 -Wall -W -D_REENTRANT -fPIE -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -o mxcompton.o mxcompton.cpp
+/usr/lib/x86_64-linux-gnu/qt5/bin/moc -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/dolphin/app -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/4.9 -I/usr/include/x86_64-linux-gnu/c++/4.9 -I/usr/include/c++/4.9/backward -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include mxcompton.h -o moc_mxcompton.cpp
+g++ -c -m64 -pipe -O2 -Wall -W -D_REENTRANT -fPIE -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -o moc_mxcompton.o moc_mxcompton.cpp
+g++ -m64 -Wl,-O1 -o mx-compton main.o mxcompton.o moc_mxcompton.o   -L/usr/X11R6/lib64 -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
+make[2]: Leaving directory '/home/dolphin/app'
+make[1]: Leaving directory '/home/dolphin/app'
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary --parallel 
+   dh_testroot
+   dh_prep
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/home/dolphin/app'
+dh_auto_install -- QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE"
+make[1]: Leaving directory '/home/dolphin/app'
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_pysupport
+dh_pysupport: This program is deprecated, you should use dh_python2 instead. Migration guide: http://deb.li/dhs2p
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   debian/rules override_dh_shlibdeps
+make[1]: Entering directory '/home/dolphin/app'
+dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/mx-compton/usr/bin/mx-compton was not linked against libGL.so.1 (it uses none of the library's symbols)
+make[1]: Leaving directory '/home/dolphin/app'
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: File::FcntlLock not available; using flock which is not NFS-safe
+   dh_md5sums
+   debian/rules override_dh_builddeb
+make[1]: Entering directory '/home/dolphin/app'
+dh_builddeb -- -Z xz
+dpkg-deb: building package `mx-compton' in `../mx-compton_16.12.01_amd64.deb'.
+make[1]: Leaving directory '/home/dolphin/app'
+ dpkg-genchanges  >../mx-compton_16.12.01_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build app
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
