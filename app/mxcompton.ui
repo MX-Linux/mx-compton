@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>414</width>
-    <height>246</height>
+    <height>261</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,92 +19,8 @@
    </iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QGridLayout" name="gridLayout_3">
-    <item row="0" column="0">
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
-       <widget class="QPushButton" name="comptonButton">
-        <property name="toolTip">
-         <string>XFCE compositor will be disabled</string>
-        </property>
-        <property name="text">
-         <string>Launch Compton</string>
-        </property>
-        <property name="icon">
-         <iconset theme="view-refresh">
-          <normaloff/>
-         </iconset>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0">
-       <widget class="QCheckBox" name="checkXFCEonly">
-        <property name="text">
-         <string>XFCE only</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="0">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Autostart options&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <spacer name="verticalSpacer">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::MinimumExpanding</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>13</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="2" column="0">
-       <widget class="QPushButton" name="configureButton">
-        <property name="toolTip">
-         <string>Launch compton-conf configuration tool</string>
-        </property>
-        <property name="text">
-         <string>Configure Compton</string>
-        </property>
-        <property name="icon">
-         <iconset theme="preferences-system">
-          <normaloff/>
-         </iconset>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="0">
-       <widget class="QCheckBox" name="checkBoxautostart">
-        <property name="text">
-         <string>Launch compton at login</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
+   <layout class="QGridLayout" name="gridLayout">
     <item row="1" column="0">
-     <spacer name="verticalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>7</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="2" column="0">
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="2">
        <spacer name="horizontalSpacer1">
@@ -207,6 +123,86 @@
           <normaloff>../../../usr/share/mx-compton/icons/gnome-help.png</normaloff>../../../usr/share/mx-compton/icons/gnome-help.png</iconset>
         </property>
        </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="comptonButton">
+        <property name="toolTip">
+         <string>XFCE compositor will be disabled</string>
+        </property>
+        <property name="text">
+         <string>Launch compton</string>
+        </property>
+        <property name="icon">
+         <iconset theme="view-refresh">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="configureButton">
+        <property name="toolTip">
+         <string>Launch compton-conf configuration tool</string>
+        </property>
+        <property name="text">
+         <string>Configure Compton</string>
+        </property>
+        <property name="icon">
+         <iconset theme="preferences-system">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Edit compton.conf</string>
+        </property>
+        <property name="icon">
+         <iconset theme="edit"/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::MinimumExpanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBoxautostart">
+        <property name="text">
+         <string>Launch compton at login</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>7</height>
+         </size>
+        </property>
+       </spacer>
       </item>
      </layout>
     </item>

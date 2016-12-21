@@ -15,14 +15,14 @@ Changes:
  .
    * dev release
 Checksums-Sha1:
- ad5ab54786a950018ac5b8e880100b7bd07a5ea7 620 mx-compton_16.12.01.dsc
- 38786ecfe6a99750372977942657433871cbdb41 24252 mx-compton_16.12.01.tar.xz
- ebaf0271e4864443861a62fb197ba1deca548ca3 29686 mx-compton_16.12.01_amd64.deb
+ 01709b3d124f9c2d58b3c1a61faf3978a9eead75 620 mx-compton_16.12.01.dsc
+ cb738d0214ee727714943b6cc154a7de46da1430 24068 mx-compton_16.12.01.tar.xz
+ 57042ed19185f3d0d004d00b08cba62d75500506 27106 mx-compton_16.12.01_amd64.deb
 Checksums-Sha256:
- af2dc31514699ab6f9a24802194ed1fe5efba1e9f7097e1a3a8a5db6cdb8d98d 620 mx-compton_16.12.01.dsc
- 5d275479f85944f77bc84dd290979225c6d39fe32599a232c02185c6de37a085 24252 mx-compton_16.12.01.tar.xz
- 5da2fa3adb4c6b54935353ad05c0f3aef768f2e2fb4ad647a375953acaaf42ec 29686 mx-compton_16.12.01_amd64.deb
+ 830fc4033eab405de80d9874cf4bc09d43394d6b9fb2ff7e530ec69e01559669 620 mx-compton_16.12.01.dsc
+ e50a47e3a22a17c91129faebcca37dcb8e9f0c7985653727d634dd4d9590ba5c 24068 mx-compton_16.12.01.tar.xz
+ afb5a6de65c21db4ab8508dac5af44f91150b6a3d4d02dc77436d6151dfa90dc 27106 mx-compton_16.12.01_amd64.deb
 Files:
- a566fc95366ef9f93be6baab242da0fb 620 admin optional mx-compton_16.12.01.dsc
- a84873ad5f580f647f96351375b069f0 24252 admin optional mx-compton_16.12.01.tar.xz
- 9f1eea34b05bec3c6a65362e795c0c1b 29686 admin optional mx-compton_16.12.01_amd64.deb
+ 42306c34c3f3e93fc1ee06cdd4481fd9 620 admin optional mx-compton_16.12.01.dsc
+ 3fad86f608bd0ad585a397fa1333281e 24068 admin optional mx-compton_16.12.01.tar.xz
+ 3b7cbd790845fe8ef5bc87af6cbe0a93 27106 admin optional mx-compton_16.12.01_amd64.deb

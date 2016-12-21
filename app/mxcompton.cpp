@@ -67,13 +67,13 @@ void mxcompton::setup()
         if ( status == "false") {
             ui->checkBoxautostart->setChecked(true);
         }
-        //check to see if XFCE only
-        status = runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
-        qDebug() << "XFCE only status is " << status;
-        if (status.contains("XFCE")) {
-            qDebug() << "XFCE only status is XFCE";
-            ui->checkXFCEonly->setChecked(true);
-        }
+//        //check to see if XFCE only
+//        status = runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
+//        qDebug() << "XFCE only status is " << status;
+//        if (status.contains("XFCE")) {
+//            qDebug() << "XFCE only status is XFCE";
+//            ui->checkXFCEonly->setChecked(true);
+//        }
     } else {
         //copy in a startup file, startup initially disabled
         runCmd("cp /usr/share/mx-compton/zcompton.desktop " + file_start.absoluteFilePath());
@@ -89,7 +89,7 @@ void mxcompton::setup()
 
     //check to see if compton is running
     if ( system("pgrep --exact compton") == 0 ) {
-        ui->comptonButton->setText(tr("Restart compton"));
+        ui->comptonButton->setText(tr("Stop compton"));
     }
 }
 
@@ -114,9 +114,14 @@ mxcompton::~mxcompton()
 
 void mxcompton::on_comptonButton_clicked()
 {
-    system("pkill -x compton");
-    system("compton-launch.sh");
-    ui->comptonButton->setText(tr("Restart compton"));
+    if (ui->comptonButton->text() == tr("Launch compton")) {
+        system("pkill -x compton");
+        system("compton-launch.sh");
+        ui->comptonButton->setText(tr("Stop compton"));
+    } else {
+        system("pkill -x compton");
+        ui->comptonButton->setText(tr("Launch compton"));
+    }
 }
 
 void mxcompton::on_configureButton_clicked()
@@ -163,22 +168,22 @@ void mxcompton::on_buttonCancel_clicked()
      qApp->quit();
 }
 
-void mxcompton::on_checkXFCEonly_clicked()
-{
-    QString home_path = QDir::homePath();
-    QFileInfo file_start(home_path + "/.config/autostart/zcompton.desktop");
-    QString status = runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
-    QString status2 = status.remove("XFCE;");
-    qDebug() << "only show status after click is :" << status.section('=',1,-1);
-    if (ui->checkXFCEonly->isChecked()) {
-        qDebug() << "Adding XFCE; to list";
-        runCmd("sed -i -r 's/OnlyShowIn=.*/OnlyShowIn=XFCE;" + status.section('=',1,-1) + "/' " + file_start.absoluteFilePath());
-    } else {
-        qDebug() << " removing XFCE" << status2;
-        runCmd("sed -i -r 's/OnlyShowIn=.*/" + status2 + "/' " + file_start.absoluteFilePath());
-    }
-    qDebug() << "ending Only Show line " << runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
-}
+//void mxcompton::on_checkXFCEonly_clicked()
+//{
+//    QString home_path = QDir::homePath();
+//    QFileInfo file_start(home_path + "/.config/autostart/zcompton.desktop");
+//    QString status = runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
+//    QString status2 = status.remove("XFCE;");
+//    qDebug() << "only show status after click is :" << status.section('=',1,-1);
+//    if (ui->checkXFCEonly->isChecked()) {
+//        qDebug() << "Adding XFCE; to list";
+//        runCmd("sed -i -r 's/OnlyShowIn=.*/OnlyShowIn=XFCE;" + status.section('=',1,-1) + "/' " + file_start.absoluteFilePath());
+//    } else {
+//        qDebug() << " removing XFCE" << status2;
+//        runCmd("sed -i -r 's/OnlyShowIn=.*/" + status2 + "/' " + file_start.absoluteFilePath());
+//    }
+//    qDebug() << "ending Only Show line " << runCmd("grep OnlyShowIn= " + file_start.absoluteFilePath()).output;
+//}
 
 void mxcompton::on_checkBoxautostart_clicked()
 {
@@ -190,4 +195,11 @@ void mxcompton::on_checkBoxautostart_clicked()
         runCmd("sed -i -r s/Hidden=.*/Hidden=true/ " + file_start.absoluteFilePath());
     }
     qDebug() << "autostart set to " << runCmd("grep Hidden= " + file_start.absoluteFilePath()).output;
+}
+
+void mxcompton::on_pushButton_clicked()
+{
+    QString home_path = QDir::homePath();
+    QFileInfo file_conf(home_path + "/.config/compton.conf");
+    runCmd("xdg-open " + file_conf.absoluteFilePath());
 }

@@ -45,9 +45,11 @@ private slots:
 
     void on_buttonCancel_clicked();
 
-    void on_checkXFCEonly_clicked();
+//    void on_checkXFCEonly_clicked();
 
     void on_checkBoxautostart_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::mxcompton *ui;
