@@ -89,7 +89,7 @@ void mxcompton::setup()
 
     //check to see if compton is running
     if ( system("pgrep --exact compton") == 0 ) {
-        ui->comptonButton->setText(tr("Stop compton"));
+        ui->comptonButton->setText(tr("Stop Compton"));
     }
 }
 
@@ -114,13 +114,13 @@ mxcompton::~mxcompton()
 
 void mxcompton::on_comptonButton_clicked()
 {
-    if (ui->comptonButton->text() == tr("Launch compton")) {
+    if (ui->comptonButton->text() == tr("Launch Compton")) {
         system("pkill -x compton");
         system("compton-launch.sh");
-        ui->comptonButton->setText(tr("Stop compton"));
+        ui->comptonButton->setText(tr("Stop Compton"));
     } else {
         system("pkill -x compton");
-        ui->comptonButton->setText(tr("Launch compton"));
+        ui->comptonButton->setText(tr("Launch Compton"));
     }
 }
 

@@ -53,7 +53,7 @@
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../../../usr/share/mx-compton/icons/mxfcelogo.png</pixmap>
+         <pixmap>../../../../usr/share/mx-compton/icons/mxfcelogo.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -134,7 +134,7 @@
          <string>XFCE compositor will be disabled</string>
         </property>
         <property name="text">
-         <string>Launch compton</string>
+         <string>Launch Compton</string>
         </property>
         <property name="icon">
          <iconset theme="view-refresh">
@@ -164,7 +164,9 @@
          <string>Edit compton.conf</string>
         </property>
         <property name="icon">
-         <iconset theme="edit"/>
+         <iconset theme="edit">
+          <normaloff/>
+         </iconset>
         </property>
        </widget>
       </item>
@@ -187,7 +189,7 @@
       <item row="4" column="0">
        <widget class="QCheckBox" name="checkBoxautostart">
         <property name="text">
-         <string>Launch compton at login</string>
+         <string>Launch Compton at login</string>
         </property>
        </widget>
       </item>
