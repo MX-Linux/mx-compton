@@ -149,7 +149,7 @@
          <string>Launch compton-conf configuration tool</string>
         </property>
         <property name="text">
-         <string>Configure Compton</string>
+         <string>Settings</string>
         </property>
         <property name="icon">
          <iconset theme="preferences-system">
