@@ -131,7 +131,7 @@
       <item row="0" column="0">
        <widget class="QPushButton" name="comptonButton">
         <property name="toolTip">
-         <string>XFCE compositor will be disabled</string>
+         <string>Xfce compositor will be disabled</string>
         </property>
         <property name="text">
          <string>Launch Compton</string>
@@ -149,7 +149,7 @@
          <string>Launch compton-conf configuration tool</string>
         </property>
         <property name="text">
-         <string>Settings</string>
+         <string>Compton settings</string>
         </property>
         <property name="icon">
          <iconset theme="preferences-system">
@@ -160,6 +160,9 @@
       </item>
       <item row="2" column="0">
        <widget class="QPushButton" name="pushButton">
+        <property name="toolTip">
+         <string>Edit compton.conf directly in text editor</string>
+        </property>
         <property name="text">
          <string>Edit compton.conf</string>
         </property>

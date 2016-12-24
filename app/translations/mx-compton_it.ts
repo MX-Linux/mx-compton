@@ -4,13 +4,6 @@
 <context>
     <name>mxcompton</name>
     <message>
-        <location filename="../mxcompton.ui" line="137"/>
-        <location filename="../mxcompton.cpp" line="117"/>
-        <location filename="../mxcompton.cpp" line="123"/>
-        <source>Launch Compton</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
         <translation type="unfinished"></translation>
@@ -42,7 +35,14 @@
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
-        <source>XFCE compositor will be disabled</source>
+        <source>Xfce compositor will be disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxcompton.ui" line="137"/>
+        <location filename="../mxcompton.cpp" line="117"/>
+        <location filename="../mxcompton.cpp" line="123"/>
+        <source>Launch Compton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -52,16 +52,21 @@
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
-        <source>Settings</source>
+        <source>Compton settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
+        <source>Edit compton.conf directly in text editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxcompton.ui" line="192"/>
+        <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
         <translation type="unfinished"></translation>
     </message>
