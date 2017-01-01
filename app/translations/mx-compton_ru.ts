@@ -1,118 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
 <context>
     <name>mxcompton</name>
     <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Compton Менеджер</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation type="unfinished"></translation>
+        <translation>Выйти из приложения</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="98"/>
         <source>Alt+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="108"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>О программе</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Справка</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Композитный менеджер Xfce будет отключен</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
         <location filename="../mxcompton.cpp" line="117"/>
         <location filename="../mxcompton.cpp" line="123"/>
         <source>Launch Compton</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск инструмента конфигурации Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
         <source>Compton settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать compton.conf в текстовом редакторе</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактирование compton.conf</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск Compton при входе в систему</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="92"/>
         <location filename="../mxcompton.cpp" line="120"/>
         <source>Stop Compton</source>
-        <translation type="unfinished"></translation>
+        <translation>Остановить Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="136"/>
         <source>About MX Compton</source>
-        <translation type="unfinished"></translation>
+        <translation>О MX Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="137"/>
         <location filename="../mxcompton.cpp" line="144"/>
         <location filename="../mxcompton.cpp" line="154"/>
         <source>MX Compton</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="137"/>
         <source>Version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Версия:</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="138"/>
         <source>Configure Compton Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка параметров Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="140"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Авторское право (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="141"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="142"/>
         <location filename="../mxcompton.cpp" line="144"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Лицензия</translation>
     </message>
 </context>
 </TS>
