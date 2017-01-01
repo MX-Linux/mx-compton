@@ -27,6 +27,7 @@ TRANSLATIONS += translations/mx-compton_ca.ts \
                 translations/mx-compton_it.ts \
                 translations/mx-compton_ja.ts \
                 translations/mx-compton_kk.ts \
+                translations/mx-compton_lt.ts \
                 translations/mx-compton_nl.ts \
                 translations/mx-compton_pl.ts \
                 translations/mx-compton_pt.ts \
