@@ -15,8 +15,8 @@ Changes:
  .
    * initial release
 Checksums-Sha1:
- 406bcd91878871e0ffbe498a9893004b167e6a8a 31340 mx-compton_17.01.01_i386.deb
+ 6d0a1b8dc3c99faa6c0c4f05b1e8507c65740e59 31354 mx-compton_17.01.01_i386.deb
 Checksums-Sha256:
- af396a390828970130e67cb7d5fc3060fe361a6146c39e9d73e7fb954cbc33e8 31340 mx-compton_17.01.01_i386.deb
+ 872e35e6697e9c5fc9fcb3ad93bf1cf6619c84e0b94e8cb432b401befc25d49a 31354 mx-compton_17.01.01_i386.deb
 Files:
- acfcbbdb15488adeef4ae58cebd5f2d8 31340 admin optional mx-compton_17.01.01_i386.deb
+ a3e6e07bf3034aef166e2f0d8d6b5639 31354 admin optional mx-compton_17.01.01_i386.deb
