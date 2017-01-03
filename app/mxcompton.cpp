@@ -151,7 +151,7 @@ void mxcompton::on_buttonAbout_clicked()
 void mxcompton::on_buttonHelp_clicked()
 {
 
-    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-compton '%1'").arg(tr("MX Compton"));
+    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-compton-manager '%1'").arg(tr("MX Compton"));
     system(cmd.toUtf8());
 
 }
