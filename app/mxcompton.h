@@ -32,6 +32,7 @@ public:
     QString getVersion(QString name);
     void setup();
     void CheckComptonRunning();
+    void CheckAptNotifierRunning();
 
 private slots:
     //void on_checkBoxautostart_toggled(bool checked);

@@ -1,3 +1,9 @@
+mx-compton (17.01.03) mx; urgency=medium
+
+  * add restart of apt-notifier if running and set to show icon
+
+ -- dolphion oracle <dolphinoracle@gmail.com>  Fri, 20 Jan 2017 11:25:34 -0500
+
 mx-compton (17.01.02) mx; urgency=medium
 
   * fixed compton process detection bug that effected some systems
