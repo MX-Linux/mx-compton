@@ -1,4 +1,7 @@
 #!/bin/bash
+##this file is part of MX Compton Manager, created for the MX Linux project
+##by dolphin oracle, January 2017.  
+##code is gpl3 licensed.
 
 #launch compton, with user config file
 

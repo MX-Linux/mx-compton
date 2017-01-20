@@ -88,7 +88,7 @@ void mxcompton::setup()
     }
 
     //check to see if compton is running
-    if ( system("pgrep --exact compton") == 0 ) {
+    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
         ui->comptonButton->setText(tr("Stop Compton"));
     }
 }
