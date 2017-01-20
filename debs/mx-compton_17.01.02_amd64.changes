@@ -15,14 +15,14 @@ Changes:
  .
    * fixed compton process detection bug that effected some systems
 Checksums-Sha1:
- 0bffdc9e24bf983123fa0942347d2f1e925bf66c 620 mx-compton_17.01.02.dsc
- 79f47e9a427c81a37eb486ccc8baa2602ecda0e6 27452 mx-compton_17.01.02.tar.xz
- 3e1ea4729180bb70fee02f674ff001bdd9ca5be6 31570 mx-compton_17.01.02_amd64.deb
+ ecb7eb203e350e4735eeb956b94d521738bfe444 620 mx-compton_17.01.02.dsc
+ 4b65eb67a9adfbc7473883cbf72d954c3cdd5440 27512 mx-compton_17.01.02.tar.xz
+ b5dbe2ebbc3d5f76889a9a0befda1dd7813fe79d 32008 mx-compton_17.01.02_amd64.deb
 Checksums-Sha256:
- 8bb0709feb0df1d878461405b045a186cad65a3c3117699b62dbd90a43333a46 620 mx-compton_17.01.02.dsc
- 1bebc1dda711078b32aac2d5a8b0ccbfe9428f7edca0eda0006243ac9f941950 27452 mx-compton_17.01.02.tar.xz
- f65cb7a282f809008f682c278bfe14612a1d95651b806379e0849f01cff3468c 31570 mx-compton_17.01.02_amd64.deb
+ 42a8af437ce7fc94853279cdb76e3520fda4acb113b6cace460e2c310ff808b3 620 mx-compton_17.01.02.dsc
+ 9016cffc78b357c7da67c64e86429fe9c0139d24ed73ebd72301580e28eb3955 27512 mx-compton_17.01.02.tar.xz
+ bac5cabba5f4d6762a9ee8309acff29971179a4c3f29be6e0b994149e5b54811 32008 mx-compton_17.01.02_amd64.deb
 Files:
- e8e0bf90b5b21c3549eab9cf21c7c138 620 admin optional mx-compton_17.01.02.dsc
- 098b6ad1de43ee93fdcd7c711f0ca7fe 27452 admin optional mx-compton_17.01.02.tar.xz
- 2b08cb946199a28ceb204f2082d8860b 31570 admin optional mx-compton_17.01.02_amd64.deb
+ d7678ad31cbf4d5ab87cb58103dccb06 620 admin optional mx-compton_17.01.02.dsc
+ fbb654f981285e57c459c1c14167cbc6 27512 admin optional mx-compton_17.01.02.tar.xz
+ c8e211e50b1232a102656ca5382a1e66 32008 admin optional mx-compton_17.01.02_amd64.deb

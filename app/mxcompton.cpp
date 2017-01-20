@@ -88,9 +88,10 @@ void mxcompton::setup()
     }
 
     //check to see if compton is running
-    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
-        ui->comptonButton->setText(tr("Stop Compton"));
-    }
+//    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
+//        ui->comptonButton->setText(tr("Stop Compton"));
+//    }
+    CheckComptonRunning();
 }
 
 
@@ -99,6 +100,16 @@ mxcompton::~mxcompton()
     delete ui;
 }
 
+void mxcompton::CheckComptonRunning()
+{
+    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
+        qDebug() << "Compton is running";
+        ui->comptonButton->setText(tr("Stop Compton"));
+    } else {
+        qDebug() << "Compton is NOT running";
+        ui->comptonButton->setText((tr("Launch Compton")));
+    }
+}
 
 
 //void mxcompton::on_checkBoxautostart_toggled(bool checked)
@@ -117,10 +128,10 @@ void mxcompton::on_comptonButton_clicked()
     if (ui->comptonButton->text() == tr("Launch Compton")) {
         system("pkill -x compton");
         system("compton-launch.sh");
-        ui->comptonButton->setText(tr("Stop Compton"));
+        CheckComptonRunning();
     } else {
         system("pkill -x compton");
-        ui->comptonButton->setText(tr("Launch Compton"));
+        CheckComptonRunning();
     }
 }
 
