@@ -11,6 +11,6 @@ if [ $(xfconf-query -c xfwm4 -p /general/use_compositing) ]; then
 fi
 
 #lauch compton with default config file
-compton --dbus --config /home/$USER/.config/compton.conf &
+compton --dbus --config /home/$USER/.config/compton.conf
 
 exit 0

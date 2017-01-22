@@ -15,14 +15,14 @@ Changes:
  .
    * add restart of apt-notifier if running and set to show icon
 Checksums-Sha1:
- 39be2d8484bf14de6f27a4f60cc1dd55b8cac765 620 mx-compton_17.01.03.dsc
- ddb68eac039713d3bb15277718ba149287512899 27748 mx-compton_17.01.03.tar.xz
- 88365c075f63a89c20e2bf8e87c3df58e9ee0d12 33266 mx-compton_17.01.03_amd64.deb
+ fea2c81c73d792db76752ec632edb6edec521646 620 mx-compton_17.01.03.dsc
+ 0dd0fd195fbd890c6ef5192d8572cdc2181de2d2 27992 mx-compton_17.01.03.tar.xz
+ ae5847db462fad4d6f79b8ca2aa3c62e5d80eec5 33184 mx-compton_17.01.03_amd64.deb
 Checksums-Sha256:
- c18cfd18e0b0d147a1a53d07cfad6818e5c47ebd4c4796362bad6a3873bbb819 620 mx-compton_17.01.03.dsc
- e6417b0d5c4746069104d4fcaf7c324de1800045d37a299d973f445632440288 27748 mx-compton_17.01.03.tar.xz
- 2d49689a9178c244427885335127ec4c68788c9d49aad4bcaccafbbffee0c8b6 33266 mx-compton_17.01.03_amd64.deb
+ 05854a208af0ef770bed7de3448a430432e56bca771c29c9f30fa595eaa099a0 620 mx-compton_17.01.03.dsc
+ 1775ea560c291ce54a12ce9bc3decd1faa4c1e27c305f21f9b9385972a41a48e 27992 mx-compton_17.01.03.tar.xz
+ fae8cacfa2dd3c59f02c6f52f150b173f900ca692c2b85a5006779de231e1074 33184 mx-compton_17.01.03_amd64.deb
 Files:
- a47f97c91105fd951538aa61d6ebabf2 620 admin optional mx-compton_17.01.03.dsc
- 3b65f14b207918a46d1ec4d6057807b7 27748 admin optional mx-compton_17.01.03.tar.xz
- 976c5f87aab942e9940d7cc39a10f357 33266 admin optional mx-compton_17.01.03_amd64.deb
+ 2b48d563b6290ca8518c5e1213597493 620 admin optional mx-compton_17.01.03.dsc
+ f16cd1f8b031c7dc80f61432bef0b2b2 27992 admin optional mx-compton_17.01.03.tar.xz
+ 63c2edf8856ec3aae03168abcfef713e 33184 admin optional mx-compton_17.01.03_amd64.deb
