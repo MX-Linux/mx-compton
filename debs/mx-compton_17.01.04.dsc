@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: mx-compton
 Binary: mx-compton
 Architecture: any
-Version: 17.01.03
+Version: 17.01.04
 Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/mxlinux/mx-compton.git
@@ -10,8 +10,8 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-compton deb admin optional arch=any
 Checksums-Sha1:
- 0dd0fd195fbd890c6ef5192d8572cdc2181de2d2 27992 mx-compton_17.01.03.tar.xz
+ 14efc2eb5e895e749067df2b38cf3a00c062c715 27752 mx-compton_17.01.04.tar.xz
 Checksums-Sha256:
- 1775ea560c291ce54a12ce9bc3decd1faa4c1e27c305f21f9b9385972a41a48e 27992 mx-compton_17.01.03.tar.xz
+ e3b6a96bfa42b9442ab86e65b92d1717293df26e56c31b916739ccb9441b16d5 27752 mx-compton_17.01.04.tar.xz
 Files:
- f16cd1f8b031c7dc80f61432bef0b2b2 27992 mx-compton_17.01.03.tar.xz
+ a0fad79c0eb31e0e28afdc8f8197df87 27752 mx-compton_17.01.04.tar.xz

@@ -1,3 +1,9 @@
+mx-compton (17.01.04) mx; urgency=medium
+
+  * modified compton-launch script
+
+ -- dolphion oracle <dolphinoracle@gmail.com>  mon, 23 Jan 2017 11:25:34 -0500
+
 mx-compton (17.01.03) mx; urgency=medium
 
   * add restart of apt-notifier if running and set to show icon

@@ -145,7 +145,7 @@ void mxcompton::on_comptonButton_clicked()
     qDebug() << "compton button pressed";
     if (ui->comptonButton->text() == tr("Launch Compton")) {
         system("pkill -x compton");
-        system("compton-launch.sh &");
+        system("compton-launch.sh");
         CheckComptonRunning();
         CheckAptNotifierRunning();
     } else {
