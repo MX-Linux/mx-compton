@@ -26,5 +26,5 @@ Comment[ru]=Настройка и запуск композитного мене
 Comment[sv]=Ställ in och starta Compton compositor
 Exec=mx-compton
 Icon=preferences-system-windows
-Categories=Settings;DesktopSettings;Qt;LXQt;System;MX-Setup;
+Categories=Settings;DesktopSettings;Qt;LXQt;MX-Setup;
 Terminal=false

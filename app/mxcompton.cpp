@@ -88,9 +88,10 @@ void mxcompton::setup()
     }
 
     //check to see if compton is running
-    if ( system("pgrep --exact compton") == 0 ) {
-        ui->comptonButton->setText(tr("Stop Compton"));
-    }
+//    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
+//        ui->comptonButton->setText(tr("Stop Compton"));
+//    }
+    CheckComptonRunning();
 }
 
 
@@ -99,6 +100,32 @@ mxcompton::~mxcompton()
     delete ui;
 }
 
+void mxcompton::CheckComptonRunning()
+{
+    if ( system("ps -ax -o comm,pid |grep -w ^compton") == 0 ) {
+        qDebug() << "Compton is running";
+        ui->comptonButton->setText(tr("Stop Compton"));
+    } else {
+        qDebug() << "Compton is NOT running";
+        ui->comptonButton->setText((tr("Launch Compton")));
+    }
+}
+
+void mxcompton::CheckAptNotifierRunning()
+{
+    if ( system("ps -aux |grep -v grep| grep python |grep --quiet apt-notifier") == 0 ) {
+        qDebug() << "apt-notifier is running";
+        //check if icon is supposed to be hidden by user
+        if ( system("cat /home/$USER/.config/apt-notifierrc |grep --quiet DontShowIcon") == 0 ) {
+            qDebug() << "apt-notifier set to hide icon, do not restart";
+        } else {
+            qDebug() << "unhide apt-notifier icon";
+            system("/usr/bin/apt-notifier-unhide-Icon");
+        }
+    } else {
+        qDebug() << "apt-notifier not running, do NOT restart";
+    }
+}
 
 
 //void mxcompton::on_checkBoxautostart_toggled(bool checked)
@@ -114,13 +141,17 @@ mxcompton::~mxcompton()
 
 void mxcompton::on_comptonButton_clicked()
 {
+    qDebug() << " ";
+    qDebug() << "compton button pressed";
     if (ui->comptonButton->text() == tr("Launch Compton")) {
         system("pkill -x compton");
         system("compton-launch.sh");
-        ui->comptonButton->setText(tr("Stop Compton"));
+        CheckComptonRunning();
+        CheckAptNotifierRunning();
     } else {
         system("pkill -x compton");
-        ui->comptonButton->setText(tr("Launch Compton"));
+        CheckComptonRunning();
+        CheckAptNotifierRunning();
     }
 }
 
