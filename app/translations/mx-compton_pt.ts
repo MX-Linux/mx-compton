@@ -38,8 +38,8 @@
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
-        <location filename="../mxcompton.cpp" line="117"/>
-        <location filename="../mxcompton.cpp" line="123"/>
+        <location filename="../mxcompton.cpp" line="110"/>
+        <location filename="../mxcompton.cpp" line="146"/>
         <source>Launch Compton</source>
         <translation>Executar o Compton</translation>
     </message>
@@ -66,49 +66,48 @@
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation>Executar o Compton ao entrar (login)</translation>
+        <translation>Executar o Compton ao iniciar sessão</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="92"/>
-        <location filename="../mxcompton.cpp" line="120"/>
+        <location filename="../mxcompton.cpp" line="107"/>
         <source>Stop Compton</source>
         <translation>Parar o Compton</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="136"/>
+        <location filename="../mxcompton.cpp" line="167"/>
         <source>About MX Compton</source>
         <translation>Sobre o MX_Gestor do compositor Compton </translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="137"/>
-        <location filename="../mxcompton.cpp" line="144"/>
-        <location filename="../mxcompton.cpp" line="154"/>
+        <location filename="../mxcompton.cpp" line="168"/>
+        <location filename="../mxcompton.cpp" line="175"/>
+        <location filename="../mxcompton.cpp" line="185"/>
         <source>MX Compton</source>
         <translation>MX_Gestor do compositor Compton</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="137"/>
+        <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
         <translation>Versão: </translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="138"/>
+        <location filename="../mxcompton.cpp" line="169"/>
         <source>Configure Compton Settings</source>
         <translation>Configurar as definições do Compton </translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="140"/>
+        <location filename="../mxcompton.cpp" line="171"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="141"/>
+        <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="142"/>
-        <location filename="../mxcompton.cpp" line="144"/>
+        <location filename="../mxcompton.cpp" line="173"/>
+        <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
         <translation>Licença</translation>
     </message>
