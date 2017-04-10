@@ -20,6 +20,7 @@ HEADERS  += mxcompton.h
 FORMS    += mxcompton.ui
 
 TRANSLATIONS += translations/mx-compton_ca.ts \
+                translations/mx-compton_cs.ts \
                 translations/mx-compton_de.ts \
                 translations/mx-compton_el.ts \
                 translations/mx-compton_es.ts \
@@ -33,5 +34,6 @@ TRANSLATIONS += translations/mx-compton_ca.ts \
                 translations/mx-compton_pt.ts \
                 translations/mx-compton_ro.ts \
                 translations/mx-compton_ru.ts \
+                translations/mx-compton_sk.ts \
                 translations/mx-compton_sv.ts \
                 translations/mx-compton_tr.ts

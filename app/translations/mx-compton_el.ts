@@ -4,7 +4,7 @@
     <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
-        <translation type="unfinished"/>
+        <translation>MX Compton Manager</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="88"/>
@@ -34,81 +34,80 @@
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation type="unfinished"/>
+        <translation>Συνθέτη Xfce θα απενεργοποιηθεί</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
-        <location filename="../mxcompton.cpp" line="117"/>
-        <location filename="../mxcompton.cpp" line="123"/>
+        <location filename="../mxcompton.cpp" line="110"/>
+        <location filename="../mxcompton.cpp" line="146"/>
         <source>Launch Compton</source>
-        <translation type="unfinished"/>
+        <translation>Εκκίνηση Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation type="unfinished"/>
+        <translation>Εκτέλεση εργαλείο διαμόρφωσης Compton-conf</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
         <source>Compton settings</source>
-        <translation type="unfinished"/>
+        <translation>ρυθμίσεις Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation type="unfinished"/>
+        <translation>Επεξεργασία compton.conf απευθείας στον κειμενογράφο</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
-        <translation type="unfinished"/>
+        <translation>Επεξεργασία compton.conf</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation type="unfinished"/>
+        <translation>Εκκίνηση Compton κατά τη σύνδεση</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="92"/>
-        <location filename="../mxcompton.cpp" line="120"/>
+        <location filename="../mxcompton.cpp" line="107"/>
         <source>Stop Compton</source>
-        <translation type="unfinished"/>
+        <translation>Διακοπή Compton</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="136"/>
+        <location filename="../mxcompton.cpp" line="167"/>
         <source>About MX Compton</source>
-        <translation type="unfinished"/>
+        <translation>Περί MX Compton</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="137"/>
-        <location filename="../mxcompton.cpp" line="144"/>
-        <location filename="../mxcompton.cpp" line="154"/>
+        <location filename="../mxcompton.cpp" line="168"/>
+        <location filename="../mxcompton.cpp" line="175"/>
+        <location filename="../mxcompton.cpp" line="185"/>
         <source>MX Compton</source>
-        <translation type="unfinished"/>
+        <translation>MX Compton</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="137"/>
+        <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
         <translation>Έκδοση:</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="138"/>
+        <location filename="../mxcompton.cpp" line="169"/>
         <source>Configure Compton Settings</source>
-        <translation type="unfinished"/>
+        <translation>Ρύθμιση του Compton Settings</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="140"/>
+        <location filename="../mxcompton.cpp" line="171"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c)  MX Linux </translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="141"/>
+        <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
         <translation>Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../mxcompton.cpp" line="142"/>
-        <location filename="../mxcompton.cpp" line="144"/>
+        <location filename="../mxcompton.cpp" line="173"/>
+        <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
         <translation>Άδεια</translation>
     </message>
