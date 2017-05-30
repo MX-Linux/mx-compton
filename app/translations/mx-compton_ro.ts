@@ -9,7 +9,7 @@
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation type="unfinished"/>
+        <translation>Închide programul </translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
