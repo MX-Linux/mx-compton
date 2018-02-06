@@ -19,21 +19,26 @@ HEADERS  += mxcompton.h
 
 FORMS    += mxcompton.ui
 
-TRANSLATIONS += translations/mx-compton_ca.ts \
-                translations/mx-compton_cs.ts \
-                translations/mx-compton_de.ts \
-                translations/mx-compton_el.ts \
-                translations/mx-compton_es.ts \
-                translations/mx-compton_fr.ts \
-                translations/mx-compton_it.ts \
-                translations/mx-compton_ja.ts \
-                translations/mx-compton_kk.ts \
-                translations/mx-compton_lt.ts \
-                translations/mx-compton_nl.ts \
-                translations/mx-compton_pl.ts \
-                translations/mx-compton_pt.ts \
-                translations/mx-compton_ro.ts \
-                translations/mx-compton_ru.ts \
-                translations/mx-compton_sk.ts \
-                translations/mx-compton_sv.ts \
-                translations/mx-compton_tr.ts
+TRANSLATIONS += translations/mx-bootrepair_am.ts \
+                translations/mx-bootrepair_ca.ts \
+                translations/mx-bootrepair_cs.ts \
+                translations/mx-bootrepair_de.ts \
+                translations/mx-bootrepair_el.ts \
+                translations/mx-bootrepair_es.ts \
+                translations/mx-bootrepair_fr.ts \
+                translations/mx-bootrepair_hu.ts \
+                translations/mx-bootrepair_it.ts \
+                translations/mx-bootrepair_ja.ts \
+                translations/mx-bootrepair_kk.ts \
+                translations/mx-bootrepair_lt.ts \
+                translations/mx-bootrepair_nl.ts \
+                translations/mx-bootrepair_pl.ts \
+                translations/mx-bootrepair_pt.ts \
+                translations/mx-bootrepair_pt_BR.ts \
+                translations/mx-bootrepair_ro.ts \
+                translations/mx-bootrepair_ru.ts \
+                translations/mx-bootrepair_sk.ts \
+                translations/mx-bootrepair_sv.ts \
+                translations/mx-bootrepair_tr.ts \
+                translations/mx-bootrepair_uk.ts
+

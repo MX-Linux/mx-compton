@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.1">
 <context>
     <name>mxcompton</name>
     <message>
@@ -9,12 +9,12 @@
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation>Uygulamadan çık</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation>Bezár</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="98"/>
@@ -24,12 +24,12 @@
     <message>
         <location filename="../mxcompton.ui" line="108"/>
         <source>About</source>
-        <translation>Hakkında</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>Súgó</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
@@ -88,7 +88,7 @@
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
-        <translation>Sürüm</translation>
+        <translation>Verzió:</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
@@ -103,13 +103,13 @@
     <message>
         <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>Mégsem</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="173"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
-        <translation>Ruhsat</translation>
+        <translation>Liszensz</translation>
     </message>
 </context>
 </TS>
