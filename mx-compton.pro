@@ -25,7 +25,10 @@ TRANSLATIONS += translations/mx-compton_am.ts \
                 translations/mx-compton_de.ts \
                 translations/mx-compton_el.ts \
                 translations/mx-compton_es.ts \
+                translations/mx-compton_fi.ts \
                 translations/mx-compton_fr.ts \
+                translations/mx-compton_hi.ts \
+                translations/mx-compton_hr.ts \
                 translations/mx-compton_hu.ts \
                 translations/mx-compton_it.ts \
                 translations/mx-compton_ja.ts \

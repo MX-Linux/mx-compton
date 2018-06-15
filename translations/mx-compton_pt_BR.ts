@@ -4,7 +4,7 @@
     <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
-        <translation type="unfinished"/>
+        <translation>Gerenciador para Compton do MX</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="88"/>

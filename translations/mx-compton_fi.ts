@@ -1,20 +1,20 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>mxcompton</name>
     <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
-        <translation>MX Compton Manager</translation>
+        <translation>MX Comptonin hallinta</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation>Quit application</translation>
+        <translation>Sulje sovellus</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
         <source>Close</source>
-        <translation>Close</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="98"/>
@@ -24,76 +24,76 @@
     <message>
         <location filename="../mxcompton.ui" line="108"/>
         <source>About</source>
-        <translation>About</translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation>Xfce compositor will be disabled</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
         <location filename="../mxcompton.cpp" line="110"/>
         <location filename="../mxcompton.cpp" line="146"/>
         <source>Launch Compton</source>
-        <translation>Launch Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation>Launch compton-conf configuration tool</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
         <source>Compton settings</source>
-        <translation>Compton settings</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation>Edit compton.conf directly in text editor</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
-        <translation>Edit compton.conf</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation>Launch Compton at login</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="107"/>
         <source>Stop Compton</source>
-        <translation>Stop Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="167"/>
         <source>About MX Compton</source>
-        <translation>About MX Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <location filename="../mxcompton.cpp" line="185"/>
         <source>MX Compton</source>
-        <translation>MX Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
-        <translation>Version: </translation>
+        <translation>Versio: </translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
         <source>Configure Compton Settings</source>
-        <translation>Configure Compton Settings</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="171"/>
@@ -103,13 +103,13 @@
     <message>
         <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="173"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
-        <translation>License</translation>
+        <translation>Lisenssi</translation>
     </message>
 </context>
 </TS>
