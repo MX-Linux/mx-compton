@@ -56,7 +56,7 @@
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation>Upraviť compton.conf primo v textovom editore</translation>
+        <translation>Upraviť compton.conf priamo v textovom editore</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>

@@ -1,20 +1,20 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sq" version="2.1">
 <context>
     <name>mxcompton</name>
     <message>
         <location filename="../mxcompton.ui" line="14"/>
         <source>MX Compton Manager</source>
-        <translation>MX Gestor do compositor Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation>Sair da aplicação</translation>
+        <translation>Dil nga aplikacioni</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
         <source>Close</source>
-        <translation>Fechar</translation>
+        <translation>Mbyll</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="98"/>
@@ -24,92 +24,92 @@
     <message>
         <location filename="../mxcompton.ui" line="108"/>
         <source>About</source>
-        <translation>Sobre</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>Ndihmë</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation>O compositor do Xfce será desativado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
         <location filename="../mxcompton.cpp" line="110"/>
         <location filename="../mxcompton.cpp" line="146"/>
         <source>Launch Compton</source>
-        <translation>Executar o Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation>Executar a ferramenta de configuração compton-conf</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
         <source>Compton settings</source>
-        <translation>Definições do Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation>Editar o ficheiro compton.conf directamente no editor de texto</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
-        <translation>Editar compton.conf </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation>Executar o Compton ao iniciar sessão</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="107"/>
         <source>Stop Compton</source>
-        <translation>Parar o Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="167"/>
         <source>About MX Compton</source>
-        <translation>Sobre o MX Gestor do compositor Compton </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <location filename="../mxcompton.cpp" line="185"/>
         <source>MX Compton</source>
-        <translation>MX Gestor do compositor Compton</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
-        <translation>Versão: </translation>
+        <translation>Versioni:</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
         <source>Configure Compton Settings</source>
-        <translation>Configurar as definições do Compton </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="171"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Të drejtat e rezervuara (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Anullo</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="173"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
-        <translation>Licença</translation>
+        <translation>Liçensa</translation>
     </message>
 </context>
 </TS>

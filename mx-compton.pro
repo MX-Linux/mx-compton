@@ -22,6 +22,7 @@ FORMS    += mxcompton.ui
 TRANSLATIONS += translations/mx-compton_am.ts \
                 translations/mx-compton_ca.ts \
                 translations/mx-compton_cs.ts \
+                translations/mx-compton_da.ts \
                 translations/mx-compton_de.ts \
                 translations/mx-compton_el.ts \
                 translations/mx-compton_es.ts \
@@ -30,6 +31,7 @@ TRANSLATIONS += translations/mx-compton_am.ts \
                 translations/mx-compton_hi.ts \
                 translations/mx-compton_hr.ts \
                 translations/mx-compton_hu.ts \
+                translations/mx-compton_is.ts \
                 translations/mx-compton_it.ts \
                 translations/mx-compton_ja.ts \
                 translations/mx-compton_kk.ts \
@@ -41,6 +43,7 @@ TRANSLATIONS += translations/mx-compton_am.ts \
                 translations/mx-compton_ro.ts \
                 translations/mx-compton_ru.ts \
                 translations/mx-compton_sk.ts \
+                translations/mx-compton_sq.ts \
                 translations/mx-compton_sv.ts \
                 translations/mx-compton_tr.ts \
                 translations/mx-compton_uk.ts \
