@@ -24,7 +24,7 @@
     <message>
         <location filename="../mxcompton.ui" line="108"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="119"/>

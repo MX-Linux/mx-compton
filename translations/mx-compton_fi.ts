@@ -34,56 +34,56 @@
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation type="unfinished"/>
+        <translation>Xfce-kompositoija poistetaan käytöstä</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
         <location filename="../mxcompton.cpp" line="110"/>
         <location filename="../mxcompton.cpp" line="146"/>
         <source>Launch Compton</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistä Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistä compton-conf konfigurointityökalut</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
         <source>Compton settings</source>
-        <translation type="unfinished"/>
+        <translation>Comptonin asetukset</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="164"/>
         <source>Edit compton.conf directly in text editor</source>
-        <translation type="unfinished"/>
+        <translation>Muokkaa compton.conf -tiedostoa suoraan tekstieditorissa</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="167"/>
         <source>Edit compton.conf</source>
-        <translation type="unfinished"/>
+        <translation>Muokkaa compton.conf</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="195"/>
         <source>Launch Compton at login</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistä Compton kirjautuessa</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="107"/>
         <source>Stop Compton</source>
-        <translation type="unfinished"/>
+        <translation>Pysäytä Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="167"/>
         <source>About MX Compton</source>
-        <translation type="unfinished"/>
+        <translation>Tietoja MX Comptonista</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <location filename="../mxcompton.cpp" line="185"/>
         <source>MX Compton</source>
-        <translation type="unfinished"/>
+        <translation>MX Compton</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
@@ -93,7 +93,7 @@
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
         <source>Configure Compton Settings</source>
-        <translation type="unfinished"/>
+        <translation>Konfiguroi Comptonin asetukset</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="171"/>
