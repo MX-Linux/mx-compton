@@ -34,7 +34,7 @@
     <message>
         <location filename="../mxcompton.ui" line="134"/>
         <source>Xfce compositor will be disabled</source>
-        <translation>Xfce compositor deaktiveres</translation>
+        <translation>Xfce-compositor deaktiveres</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="137"/>
