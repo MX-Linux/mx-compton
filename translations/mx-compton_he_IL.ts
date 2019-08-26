@@ -9,7 +9,7 @@
     <message>
         <location filename="../mxcompton.ui" line="88"/>
         <source>Quit application</source>
-        <translation type="unfinished"/>
+        <translation>יציאה מהתוכנה</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="91"/>
@@ -29,7 +29,7 @@
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation type="unfinished"/>
+        <translation>עזרה</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
@@ -88,7 +88,7 @@
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>גרסה:</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
@@ -98,18 +98,18 @@
     <message>
         <location filename="../mxcompton.cpp" line="171"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>זכויות שמורות MX Linux</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>ביטול</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="173"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>רשיון</translation>
     </message>
 </context>
 </TS>
