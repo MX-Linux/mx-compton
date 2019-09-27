@@ -46,6 +46,7 @@ TRANSLATIONS += translations/mx-compton_am.ts \
                 translations/mx-compton_ko.ts \
                 translations/mx-compton_lt.ts \
                 translations/mx-compton_mk.ts \
+                translations/mx-compton_mr.ts \
                 translations/mx-compton_nb.ts \
                 translations/mx-compton_nl.ts \
                 translations/mx-compton_pl.ts \

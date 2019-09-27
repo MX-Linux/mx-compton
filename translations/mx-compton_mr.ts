@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mr" version="2.1">
 <context>
     <name>mxcompton</name>
     <message>
@@ -14,7 +14,7 @@
     <message>
         <location filename="../mxcompton.ui" line="91"/>
         <source>Close</source>
-        <translation>Tutup</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="98"/>
@@ -29,7 +29,7 @@
     <message>
         <location filename="../mxcompton.ui" line="119"/>
         <source>Help</source>
-        <translation>Bantuan</translation>
+        <translation>मदत</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="134"/>
@@ -88,7 +88,7 @@
     <message>
         <location filename="../mxcompton.cpp" line="168"/>
         <source>Version: </source>
-        <translation>Versi:</translation>
+        <translation>आवृत्ती</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="169"/>
@@ -98,18 +98,18 @@
     <message>
         <location filename="../mxcompton.cpp" line="171"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>कॉपीराइट (c) एमएक्स लिनक्स</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="172"/>
         <source>Cancel</source>
-        <translation>Batal</translation>
+        <translation>रद्द करा</translation>
     </message>
     <message>
         <location filename="../mxcompton.cpp" line="173"/>
         <location filename="../mxcompton.cpp" line="175"/>
         <source>License</source>
-        <translation>Lisensi</translation>
+        <translation>परवाना</translation>
     </message>
 </context>
 </TS>

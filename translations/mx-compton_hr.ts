@@ -46,7 +46,7 @@
     <message>
         <location filename="../mxcompton.ui" line="149"/>
         <source>Launch compton-conf configuration tool</source>
-        <translation type="unfinished"/>
+        <translation>Pokreni commpton-conf konfiguracijski alat</translation>
     </message>
     <message>
         <location filename="../mxcompton.ui" line="152"/>
